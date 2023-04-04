@@ -1,6 +1,6 @@
 ## Historial de cambios
 
-Update: Rodrigo (finalizado)
-Update: jose (finalizado)
+- Update: Rodrigo (finalizado)
+- Update: jose (finalizado)
 
 ...
