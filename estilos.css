@@ -3,7 +3,6 @@
   padding: 0;
 }
 body {
-  /* background-image: url("./image-hero.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -14,7 +13,7 @@ header {
   background-size: cover;
   width: 100%;
 }
-.div-header{
+.div-header {
   max-width: 1440px;
   height: 80vh;
   display: flex;
@@ -22,10 +21,13 @@ header {
   margin: 0 auto;
 }
 .div-logo {
-  margin-top: 50px;
-  margin-left: 20px;
+  margin-top: 55px;
+  margin-left: 30px;
+  padding: 10px;
 }
-
+.menu-bar {
+  display: none;
+}
 .nav-header {
   margin-top: 50px;
   float: right;
@@ -44,6 +46,23 @@ header {
   display: block;
   padding: 20px;
   color: #fff;
-  /* background: black; */
   text-decoration: none;
 }
+@media (max-width: 860px) {
+  .div-logo {
+    display: inline-block;
+    width: 35px;
+  }
+  .nav-header {
+    display: none;
+  }
+  .menu-bar {
+    display: inline-block;
+    margin-top: 65px;
+    margin-right: 30px;
+  }
+  .menu-bar img{
+    width: 40px;
+  }
+}
+
