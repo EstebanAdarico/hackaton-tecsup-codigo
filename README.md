@@ -1,6 +1,6 @@
-## Jóse !
+## Historial de cambios
 
-Web responsive usando HTML y CSS (grid & flexbox).
+Update: Rodrigo (finalizado)
+Update: jose (finalizado)
 
-Demostración a través del siguiente link:
-# [ **[ver demo](https://shorturl.at/hDKS2)** ]
+...
