@@ -9,23 +9,27 @@ body {
 }
 header {
   background-image: url("./image-hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.div-header{
+  max-width: 1440px;
   height: 80vh;
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  /* border: solid 2px red; */
+  margin: 0 auto;
 }
-.div-nav {
+.div-logo {
   margin-top: 50px;
   margin-left: 20px;
-  /* border: solid 2px aqua; */
 }
 
 .nav-header {
   margin-top: 50px;
   float: right;
   margin-right: 30px;
-  /* border: solid 2px blue; */
 }
 .nav-header ul {
   list-style: none;
