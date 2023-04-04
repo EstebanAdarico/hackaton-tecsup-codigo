@@ -1,0 +1,97 @@
+@import url('//fonts.googleapis.com/css?family=Alata:400');
+@import url('//fonts.googleapis.com/css?family=Josefin+Sans:300');
+
+:root {
+    --width-desktop: 1440px;
+    --color-white: hsl(0, 0%, 100%);
+    --color-black: hsl(0, 0%, 0%);
+    --color-dark-gray: hsl(0, 0%, 55%);
+    --color-very-dark-gray: hsl(0, 0%, 41%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Alata', 'Josefin Sans', Arial;
+    font-size: 15px;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../images/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.div-header-container {
+    max-width: var(--width-desktop);
+    margin: 0 auto;
+    padding: 20px;
+}
+.div-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.div-logo {
+    max-width: 100%;
+}
+.logo {
+    width: 100%;
+}
+.menu-bar {
+    display: none;
+}
+.nav-header ul {
+    list-style: none;
+}
+.nav-header ul li {
+    font-family: 'Alata';
+    display: inline-block;
+}
+.nav-header ul li a {
+    display: block;
+    padding: 20px;
+    color: var(--color-white);
+    text-decoration: none;
+    cursor: pointer;
+}
+.header__text-box {
+    color: var(--color-white);
+    font-size: 3.5rem;
+    border: 1px solid var(--color-white);
+    padding: 40px;
+    width: 48%;
+    min-width: 530px;
+    font-family: 'Josefin Sans';
+    margin-bottom: 70px;
+}
+
+@media (max-width: 860px) {
+    header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./../images/mobile/image-hero.jpg');
+        min-height: 500px;
+    }
+    .nav-header {
+        display: none;
+    }
+    .menu-bar {
+        display: inline-block;
+    }
+    .menu-bar img{
+        width: 40px;
+    }
+    .header__text-box {
+        width: 100%;
+        min-width: inherit;
+        font-size: 2.5em;
+        padding: 20px;
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+}
+
+
