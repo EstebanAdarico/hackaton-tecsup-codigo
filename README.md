@@ -1,2 +1,6 @@
-# hackaton-tecsup-codigo
-# creando rama juan
+## Historial de cambios
+
+- Update: Rodrigo (finalizado)
+- Update: jose (finalizado)
+- UPdate: Juan (finalizado)
+...
