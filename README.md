@@ -2,5 +2,5 @@
 
 - Update: Rodrigo (finalizado)
 - Update: jose (finalizado)
-
+- UPdate: Juan (finalizado)
 ...
