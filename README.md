@@ -5,7 +5,7 @@
 -  Update: Rodrigo (finalizado)
 -  Update: jose (finalizado)
 -  UPdate: Juan (finalizado)
--  UPdate: Esteban Pime(finalizado)
+-  UPdate: esteban (finalizado)
    ...
    =======
 
