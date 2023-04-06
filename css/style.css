@@ -80,24 +80,19 @@ header {
   margin-bottom: 70px;
 }
 
-@media (max-width: 860px) {
-  header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('//i.postimg.cc/CKGLSYxk/image-hero.jpg?=./../images/mobile/image-hero.jpg');
-    min-height: 500px;
-  }
 
-  .nav-header {
-    display: none;
-  }
+.nav-header {
+  display: none;
+}
 
-  .menu-bar {
+.menu-bar {
     display: inline-block;
   }
-
+  
   .menu-bar img {
     width: 40px;
   }
-
+  
   .header__text-box {
     width: 100%;
     min-width: inherit;
@@ -106,7 +101,16 @@ header {
     margin-top: 200px;
     margin-bottom: 200px;
   }
-}
+
+/* ========STARD MAIN-========= */
+
+
+
+
+
+
+/* ===========END MAIN */
+
 
 /*footer*/
 img {
@@ -140,7 +144,19 @@ footer {
   flex-direction: column;
   row-gap: 1.45rem;
 }
+.footer-menu__link {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.9;
+  position: relative;
+}
 
+@media (min-width: 860px) {
+  header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('//i.postimg.cc/CKGLSYxk/image-hero.jpg?=./../images/mobile/image-hero.jpg');
+    min-height: 500px;
+  }
+}
 @media (min-width: 700px) {
   .footer-menu {
     flex-direction: row;
@@ -149,12 +165,6 @@ footer {
   }
 }
 
-.footer-menu__link {
-  color: #fff;
-  text-decoration: none;
-  opacity: 0.9;
-  position: relative;
-}
 
 @media (min-width: 700px) {
   .footer-menu__link::after {
