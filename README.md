@@ -18,7 +18,7 @@
 
 https://estebanadarico.github.io/hackaton-tecsup-codigo/
 
-https://bit.ly/3Kk2JjY
+https://hackaton-tecsup-codigo.vercel.app/
 
 
 # hackaton - Loopstudios landing page
